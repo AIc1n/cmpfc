@@ -4,6 +4,11 @@ terminal.commandData = {
         "description": "Вывод доступных команд."
     },
 
+    "now": 
+    { 
+        "description": "Показывает пару, которая проводится сейчас."
+    },
+
     "helloworld":
     {
         "description": "Вывод стартового сообщения."
