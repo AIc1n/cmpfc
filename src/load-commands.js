@@ -30,5 +30,11 @@ terminal.commandData = {
     {
         "description": "Тссс..",
         "isSecret": true
+    },
+    
+    "adsk":
+    {
+        "description": "хехехехе",
+        "isSecret": true
     }
 }
