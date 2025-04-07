@@ -57,7 +57,7 @@ terminal.addCommand("now", async function() {
             );
             
             if (nextLesson) {
-                terminal.printLine(`Перерыв до следующей пары в ${nextLesson.start_time}`);
+                terminal.printLine(`Перерыв до следующей пары в ${nextLesson.start_time}, в кабинете ${nextLesson.classroom}, предмет: ${nextLesson.subject}`);
             } else {
                 terminal.printLine("Учебный день окончен");
             }
