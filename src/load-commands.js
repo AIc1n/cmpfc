@@ -6,7 +6,7 @@ terminal.commandData = {
 
     "now": 
     { 
-        "description": "Показывает пару, которая проводится сейчас."
+        "description": "Показывает текущую пару по расписанию."
     },
 
     "helloworld":
@@ -35,6 +35,12 @@ terminal.commandData = {
     "adsk":
     {
         "description": "хехехехе",
+        "isSecret": true
+    },
+
+    "a1con":
+    {
+        "description": "хухухухаха",
         "isSecret": true
     }
 }
