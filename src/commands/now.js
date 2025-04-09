@@ -45,7 +45,7 @@ terminal.addCommand("now", async function() {
             const output = [
                 `Сейчас идет ${currentLesson.type.toLowerCase()}:`,
                 `├─ ${currentLesson.subject}`,
-                `├─ ${lesson.classroom || "Кабинет не указан"}`,
+                `├─ ${currentLesson.classroom || "Кабинет не указан"}`,
                 `├─ ${currentLesson.teacher || "Преподаватель не указан"}`,
                 `└─ ${currentLesson.start_time} - ${currentLesson.end_time}`
             ].join("\n");
